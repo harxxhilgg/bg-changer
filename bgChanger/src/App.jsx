@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div className="w-full h-screen duration-200" style={{backgroundColor: color}}>
-    <div className="text-center pt-24 text-5xl font-bold underline">
+    <div className="text-center pt-24 text-5xl font-bold underline" style={{color: color === 'Black' ? 'white' : 'black'}}>
       Current Displaying Color: {color}
     </div>
       <div className="fixed flex flex-wrap justify-center bottom-10 inset-x-0 px-2">
