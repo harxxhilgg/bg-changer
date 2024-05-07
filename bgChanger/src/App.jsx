@@ -6,7 +6,6 @@ function App() {
 
   return (
     <>
-
     <div className="w-full h-screen duration-200" style={{backgroundColor: color}}>
     <div className="text-center pt-24 text-5xl font-bold underline">
       Current Displaying Color: {color}
